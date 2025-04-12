@@ -84,5 +84,5 @@ export const setup = async (provider: anchor.Provider) => {
     "Funded " + acc.value.amount + " tokens to " + maker_ata.toBase58()
   );
 
-  return [maker, taker, mint, maker_ata] as const;
+  return [maker, taker, mint] as const;
 };

@@ -25,12 +25,11 @@ describe("bounty", async () => {
   let maker: anchor.web3.Keypair;
   let taker: anchor.web3.Keypair;
   let mint: Mint;
-  let maker_ata: anchor.web3.PublicKey;
 
   let bounty_address: anchor.web3.PublicKey;
 
   before(async () => {
-    [maker, taker, mint, maker_ata] = await setup(provider);
+    [maker, taker, mint] = await setup(provider);
 
     bounty_address = PublicKey.findProgramAddressSync(
       [

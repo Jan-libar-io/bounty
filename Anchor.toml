@@ -14,7 +14,7 @@ bounty = "DmdMx7mD3Q3MrWGrPLBFZvznbPkna3PE7L5MxHD5Zras"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "devnet"
+cluster = "Localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
